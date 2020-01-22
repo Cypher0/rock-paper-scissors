@@ -1,0 +1,50 @@
+body {
+  margin: 0 auto;
+  max-width: 1320px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { width: 100%; }
+
+h1, h2 { text-align: center; }
+
+h1 { margin: 40px 0; }
+
+h2 { margin-bottom: 40px; }
+
+.rules {
+  margin-bottom: 40px;
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+  
+}
+
+.btn-area {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 768px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+button {
+  height: 32px;
+  font-weight: bold;
+  color: yellow;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.score {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.results {
+  text-align: center;
+  color: darkgrey;
+}
